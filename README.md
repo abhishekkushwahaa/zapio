@@ -45,13 +45,13 @@ DATABASE_URL="postgresql://username:password@localhost:5432/zapio"
 4. Run the migrations with the following command:
 
 ```bash
-npx prisma migrate dev --name init
+bunx prisma migrate dev --name init
 ```
 
 5. Seed the database with the following command:
 
 ```bash
-npx prisma db push --preview-feature
+bunx prisma db push --preview-feature
 ```
 
 6. Start the development server with the following command:
