@@ -2,6 +2,10 @@
   "name": "hooks",
   "module": "index.ts",
   "type": "module",
+  "scripts": {
+    "start": "bun run src/index.ts",
+    "dev": "bun run start"
+  },
   "devDependencies": {
     "@types/bun": "latest"
   },
