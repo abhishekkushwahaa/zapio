@@ -221,7 +221,7 @@ function Modal({
             </button>
           </div>
           <div className="p-4 md:p-5 space-y-4">
-            {step === 1 && selectedAction?.id === "email" && (
+            {step === 1 && selectedAction?.name === "Email" && (
               <EmailSelector
                 setMetadata={(metadata) => {
                   onSelect({
@@ -232,7 +232,7 @@ function Modal({
               />
             )}
 
-            {step === 1 && selectedAction?.id === "send-sol" && (
+            {step === 1 && selectedAction?.name === "Solana" && (
               <SolanaSelector
                 setMetadata={(metadata) => {
                   onSelect({
